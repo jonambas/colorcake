@@ -1,0 +1,14 @@
+@import '../../styles/config';
+
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  max-width: rem(650);
+  margin: spacing(large);
+  box-shadow: shadow(deeper)
+}

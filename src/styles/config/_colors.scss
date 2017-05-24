@@ -1,0 +1,38 @@
+
+$color-map: (
+
+  white: (
+    base: #fafafa
+  ),
+
+  blue: (
+    base: #2C44F1
+  ),
+
+  gray: (
+    base : #343840,
+    0    : #000000,
+    1    : #343840,
+    2    : #fafafa
+  ),
+
+  red: (
+    base: #F2231E
+  ),
+);
+
+// Returns color hex code
+// @param {String} $hue - The base color hue
+// // @param {String} $value - The color hue variant
+// @return {Color} The color hex code
+
+@function color($hue, $value: base) {
+  $hue-map: map-get($color-map, $hue);
+  $color: map-get($hue-map, $value);
+
+  @if type-of($color) == color {
+    @return $color;
+  } @else {
+    @error 'Color `#{$hue} - #{$value}` not found.';
+  }
+}
