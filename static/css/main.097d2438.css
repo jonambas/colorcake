@@ -1,4 +1,4 @@
-@import url(https://densxrygz3p1n.cloudfront.net/averta.css);.Layout-module__wrapper___3Z9cY {
+.Layout-module__wrapper___3Z9cY {
   height: 100%;
   display: -ms-flexbox;
   display: flex;
@@ -423,7 +423,7 @@ body {
   margin: 0;
   padding: 0;
   color: #343840;
-  font-family: Averta, serif;
+  font-family: Averta W01, serif;
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.4em; }
@@ -468,4 +468,4 @@ pre, table, fieldset, hr {
   margin-top: 0;
   margin-bottom: 1rem; }
 
-/*# sourceMappingURL=main.ac4e1f34.css.map*/
+/*# sourceMappingURL=main.097d2438.css.map*/
